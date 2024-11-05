@@ -1,0 +1,38 @@
+{
+  "name": "ui-kit",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "types": "dist/index.d.ts",
+  "main": "dist/esm/index.js",
+  "module": "dist/cjs/index.js",
+  "keywords": [],
+  "author": "icelink",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "12.1.1",
+    "@rollup/plugin-url": "^8.0.2",
+    "@storybook/react": "^8.4.1",
+    "@svgr/rollup": "^8.1.0",
+    "@types/react": "^18.0.27",
+    "@typescript-eslint/parser": "5.33.0",
+    "eslint": "^8.32.0",
+    "eslint-config-standard-with-typescript": "^31.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.1",
+    "node-sass": "^9.0.0",
+    "postcss": "^8.4.47",
+    "rollup": "^4.24.4",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
